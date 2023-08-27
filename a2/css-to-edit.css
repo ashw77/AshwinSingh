@@ -1,0 +1,44 @@
+/* Add your own CSS here */
+
+/* example of button being styled using the selectors assigned to it in the script.js file */
+
+.buttons {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2.5px;
+}
+
+
+.buttons:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+#button1 {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+/* Styling for buttons */
+
+
+/* Styling for the canvas container */
+#column-two {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+/* Styling for the canvas */
+#column-two canvas {
+  border: 2px solid black;
+}
+
+
+/* Use your own selectors [ids(#) and classes(.) for styling the input elements created in p5]  */
