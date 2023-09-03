@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  header{
+    height: 50px;
+  }
+  #main {
+    border: 2px solid #333;
+    /* padding: 10px; */
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+  }
+  #canvas-container {
+    width: hug;
+    border: 2px solid #007BFF;
+    padding: 20px;
+    position: relative;
+    display: block;
+    
+  }
+  
+  #controls {
+    border: 2px solid #34A853;
+    width: hug;
+    padding: 10px;
+    
+    
+  }
